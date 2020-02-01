@@ -140,6 +140,12 @@ font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
 	margin-left: 330px;
 }
+.container2 .btn a:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0);
+    color: #333333;
+    box-shadow: inset 0 0 0 3px #050400;
+}
 .container3 h2{
 	margin-top: 95px;
 	font-family: 'Ubuntu', sans-serif;
@@ -193,6 +199,84 @@ font-family: 'Ubuntu', sans-serif;
 font-weight: 400;
 
 }
+.container3 .cards .sol{
+	margin-right: 36px;
+}
+.container3 .cards .item1{
+	margin-right: 21px;
+}
+.container4{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.container4 .item6{
+	background-image: url('./img/image8.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	grid-column: 3/4;
+	grid-row: 2/4;
+}
+.container4 .item7{
+	background-image: url('./img/image7.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	grid-column: 1/3;
+	grid-row: 3/4;
+}
+.container4 img{
+	max-width: 100%;
+}
+.container4 .item{
+	margin: auto;
+}
+.container4 .item span, .container4 .item6 span,.container4 .item7 span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	display: block;
+	color: #141311;
+	width: 50%;
+	margin-left: 20%;
+}
+.container4 .item p, .container4 .item6 p, .container4 .item7 p{
+	font-family: 'Nunito';
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 27px;
+	margin-left: 20%;
+	width: 60%;
+}
+.container4 .item i, .container4 .item6 i, .container4 .item7 i{
+	height: 2px;
+	width: 35px;
+	display: block;
+	background-color: #000000;
+	margin-left: 20%;
+	margin-top: 12px;
+}
+.container4 .item6 span, .container4 .item6 p{
+	color: #ffffff;
+}
+.container4 .item6 span{
+	margin-top: 80%;
+}
+.container4 .item6 i{
+	background-color: #ffffff;
+}
+.container4 .item7 p{
+	width: 30%;
+	margin-left: 10%;
+}
+.container4 .item7 i, .container4 .item7 span{
+	margin-left: 10%;
+}
+.container4 .item7 span{
+	margin-top: 10%;
+}
+.container4 {
+	background-color: #f8f8f8;
+}
 .container6{
 	background-image: url('./img/image4.png');
 height: 1090px;	
@@ -238,19 +322,26 @@ height: 1090px;
 }
 .container6 .btn a{
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: bold;
+	font-family: 'Ubuntu Bold', sans-serif;
+	font-weight: 800;
 	font-size: 10px;
 	color: #333333;
 	padding: 25px 50px;
 	background-color: #fff;
 	border-radius: 30px;
-	text-transform: uppercase;
-	
+text-transform: uppercase;
 }
 .container6 .btn{
-margin-top: 70px;
+	margin-top: 70px;
 }
+
+.container6 .btn a:hover{
+cursor: pointer;
+background: rgba(0,0,0,0);
+    color: #ffffff;
+    box-shadow: inset 0 0 0 3px #c89d28;
+}
+
 .container6 .slot div{
 width: 350px;
 }
@@ -270,4 +361,249 @@ width: 350px;
 	font-size: 0.3em;
 	padding-top: 5px;
 	vertical-align: 1.6em;
+}
+.container7{
+	background-image: url('./img/image9.png');
+	width: 100%;
+height: 1080px;	
+}
+
+.container7 h2{
+	color: #000000;
+	font-size: 34px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	padding-top: 142px;
+	padding-bottom: 70px;
+	
+}
+
+.container7 .card{
+	width: 1200px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: 600px 26px 267px 26px 267px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px;
+	margin-left: 150px;
+}
+.container7 .card .item1{
+	background-image: url('./img/image10.png');
+	grid-column: 1/2;
+	grid-row: 1/7;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+.container7 .card .item1 .pack1{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	color: #f2f2f1;
+	margin-top: 242px;
+	text-align: center;
+	grid-column: 1/2;
+	grid-row: 1/7;
+	font-weight: lighter;
+}
+.container7 .card .item1 .pack2{
+	grid-column: 1/2;
+	grid-row: 1/7;
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	color: #f2f2f1;
+	text-align: center;
+	font-weight: lighter;
+}
+.container7 .card .pack3{
+	grid-column: 1/2;
+	grid-row: 1/7;
+	margin-top: 35px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10px;
+	color: #cccccc;
+	margin-left: 220px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.container7 .card .item1 .colortext{
+	color: #c89d28;
+}
+.container7 .card .item2{
+	background-image: url('./img/image11.png');
+	grid-column: 3/4;
+	grid-row: 1/3;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.container7 .card .item3{
+	grid-column: 3/4;
+	grid-row: 3/4;
+	font-size: 17px;
+	color: #333333;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 20px;
+	margin-top: 33px;
+	font-weight: 400;
+	margin-right: 22px;
+}
+.container7 .card .item4{
+	background-image: url('./img/image13.png');
+	grid-column: 3/4;
+	grid-row: 4/6;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.container7 .card .item5{
+	grid-column: 3/4;
+	grid-row: 6/7;
+	font-size: 17px;
+	color: #333333;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 20px;
+	margin-top: 33px;
+	font-weight: 400;
+	margin-right: 22px;
+}
+.container7 .card .item6{
+	background-image: url('./img/image12.png');
+	grid-column: 5/6;
+	grid-row: 1/3;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.container7 .card .item7{
+	grid-column: 5/6;
+	grid-row: 3/4;
+	font-size: 17px;
+	color: #333333;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 20px;
+	margin-top: 33px;
+	font-weight: 400;
+	margin-right: 22px;
+}
+.container7 .card .item8{
+	background-image: url('./img/image14.png');
+	grid-column: 5/6;
+	grid-row: 4/6;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.container7 .card .item9{
+	grid-column: 5/6;
+	grid-row: 6/7;
+	font-size: 17px;
+	color: #333333;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 20px;
+	margin-top: 33px;
+	font-weight: 400;
+	margin-right: 22px;
+}
+.container7 .btn a{
+	text-decoration: none;
+	font-family: 'Ubuntu Bold', sans-serif;
+	font-weight: 800;
+	font-size: 10px;
+	color: #333333;
+	padding: 25px 90px;
+	background-color: #ffffff;
+	border-radius: 30px;
+text-transform: uppercase;
+}
+.container7 .btn{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.container7 .btn a:hover{
+cursor: pointer;
+background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #000000;
+}
+.container7 .item2 .btn2 p{
+	width: 26%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-top: 10px;
+}
+.container7 .item1 .btn1 p{
+	width: 8.5%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-top: 10px;
+}
+.container7 .item4 .btn4 p{
+	width: 8%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-top: 10px;
+}
+.container7 .item8 .btn8 p{
+	width: 6%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-top: 10px;
+}
+.container7 .item6 .btn6 p{
+	width: 14%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-top: 10px;
+}
+.container7 .item6 .btn7 p{
+	width: 6%;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 8px;
+	color: #ffffff;
+	padding: 9px 14px;
+	background-color: #8d7431;
+	border-radius: 13px;
+text-transform: uppercase;
+margin-left: 78px;
+margin-top: -26px;
 }
