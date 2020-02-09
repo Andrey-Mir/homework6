@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.css">
     <link rel="stylesheet" href="./fonts/trajanpro/trajanpro.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300|Nunito:300,400,700|Open+Sans:400,600|Ubuntu:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -15,17 +20,22 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="logo">
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#projects">Services</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="btn">
+            <div class="btn" id="btn">
                 <a href="#">Buy now</a>
             </div>
+            <span class="burger" id="burger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </header>
         <section class="container2">
 <h2>We Design Experiences.</h2>
@@ -86,14 +96,44 @@
                 <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
             </div>
             <div class="item6">
-                <span>Awards</span>
+                <span>Goal</span>
                 <i></i>
                 <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
             </div>
             <div class="item7">
-                <span>Goal</span>
+                <span>Awards</span>
                 <i></i>
                 <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
+            </div>
+        </section>
+        <section class="container5" id="projects">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="left_content wow flip col-xl-7 col-lg-7 col-md-7 col-sm-12" data-wow-duration="2s" data-wow-iteration="5s">
+                        <img src="./img/image16.png" alt="image16">
+                    </div>
+                    <div class="right_content wow rotateInDownRight col-xl-3 col-lg4 col-md-4 col-sm-12" data-wow-duration="4s" data-wow-delay="3s">
+                        <h3>Projects</h3>
+                        <p class="txt_right">Starting a Creative Firm in the
+                            Age of Digital Marketing.</p>
+                            <i class="fas fa-pager"></i>
+                            <span>Stunning Page Builder</span>
+                        <p>Setup pages and content 
+                            like a PRO. Coding is not required and a handy
+                             documentation is included.</p>
+                             <i class="fas fa-pager"></i>
+                             <span>Stunning Page Builder</span>
+                         <p>Setup pages and content 
+                             like a PRO. Coding is not required and a handy
+                              documentation is included.</p>
+                              <i class="fas fa-pager"></i>
+                              <span>Stunning Page Builder</span>
+                          <p>Setup pages and content 
+                              like a PRO. Coding is not required and a handy
+                               documentation is included.</p>
+                               <a href="#">view more</a>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="container6">
@@ -109,7 +149,7 @@
                             <a href="#">view</a>
                         </div>
                 </div>
-                <hr class="hr-vertical-gradient">
+               <i></i>
                 <div>
                     <h2 class="price"><span>$</span>199</h2>
                     <p class="text">1 Year Membership</p>
@@ -120,7 +160,7 @@
                             <a href="#">sign up today</a>
                         </div>
                 </div>
-                <hr class="hr-vertical-gradient">
+                <i></i>
                 <div>
                     <h2 class="price"><span>$</span>399</h2>
                     <p class="text">Forever Membership</p>
@@ -187,8 +227,212 @@
             </div>
 
         </section>
+        <section class="container8">
+            <div class="container">
+                <div class="row">
+                    <div class="description1 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <h3>We’ve got you covered.</h3>
+                        <p class="txt">
+                            Intuitive drag and drop Page Builder.
+                             Stunning themes.<span class="spans"> Over 100 Elements.</span>
+                              Creating your beautiful website has
+                              never been easier.
+                        </p>
+                    </div>
+                    <div class="description2 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2">
+                        <div>
+                            <i class="fas fa-pager"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-headset"></i>
+                        </div>
+                    </div>
+                    <div class="description3 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-10">
+                        <span>Stunning Page Builder</span>
+                        <p>Setup pages and content 
+                            like a PRO. Coding is not required and a handy
+                             documentation is included.</p>
+                        <span>Featurewise Complete</span>
+                        <p>Without a doubt, Kallyas is one of the most complete WordPress themes on the market,
+                             being packed with all the goodies and sweet gems.</p>
+                        <span>Rescue support</span>
+                        <p>In time, gathering awesome feedback from our loyal customers, Kallyas became a mature,
+                             stable and future-proof project.</p>
+                    </div>
+                    <div class="description4 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2">
+                        <div>
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                    </div>
+                    <div class="description5 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-10">
+                        <span>Iconic Awarded Design</span>
+                        <p>This design is featured across the 
+                            marketplaces and awarded for it's looks. Walkthrough and enjoy the visuals.</p>
+                        <span>Mature project</span>
+                        <p>In time, gathering awesome feedback from our loyal customers, Kallyas became a mature,
+                             stable and future-proof project.</p>
+                        <span>E-Commerce Ready</span>
+                        <p>In time, gathering awesome feedback from our loyal customers, Kallyas became a mature,
+                             stable and future-proof project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container9">
+            <h2>Facts</h2>
+            <div class="container">
+            <div class="row justify-content-xl-center">
+                <div class="description1 col-xl-3">
+                <h3 class="text1">130+</h3>
+                <p class="text1">Customers</p>
+                </div>
+                <div class="description2 col-xl-3">
+                    <h3 class="text2">200+</h3>
+                    <p class="text2">Apps developed</p>
+                </div>
+                <div class="description3 col-xl-3">
+                    <h3 class="text3">10+</h3>
+                    <p class="text3">Offices</p>
+                </div>
+                <div class="description4 col-xl-3">
+                    <h3 class="text4">2K+</h3>
+                    <p class="text4">Coffes</p>
+                </div>
+            </div>
+        </div>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</br></p>
+        </section>
+        <section class="container10">
+            <h2>Working with world's best companies.</h2>
+            <div class="images">
+                <div class="images1 wow shake"><img src="./img/image18.png" alt="image18"></div>
+                <div class="images2 wow hinge"><img src="./img/image19.png" alt="image19"></div>
+                <div class="images3 wow wobble"><img src="./img/image20.png" alt="image20"></div>
+                <div class="images4 wow swing"><img src="./img/image21.png" alt="image21"></div>
+                <div class="images5 wow bounceOutDown"><img src="./img/image22.png" alt="image22"></div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div>
+                    <p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                        You guys deserve a five star wich you got from me.”</br></p>
+                        <h3>PERRY ANDREWS</h3>
+                        <span>SWIFT Inc.</span>
+                </div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+                <div><p>Bought this theme sometime ago and is so pleased with the flexibility <br>of the theme... 
+                    You guys deserve a five star wich you got from me.”</br></p>
+                    <h3>PERRY ANDREWS</h3>
+                    <span>SWIFT Inc.</span></div>
+              </div>
+        </section>
+        <section class="container11">
+            <h2>Get in Touch With Us.</h2>
+                    <p>Marketing to mobile-first users has arrived and must be taken seriously.</p>
+                    <div class="btn">
+                        <a href="#">Let’s do it</a>
+                    </div>
+        </section>
+        <section class="container12">
+            <div class="container">
+                <div class="row">
+                    <div class="description1 col-xl-6">
+<h2>hogash studios</h2>
+<p>Text of the printing and typesetting industry. Lorem Ipsum has been the <br>indus try's standard dummy text ever  
+    when an unknown printer took a </br>galley of type and scrambled it to make a type specimen book.</p>
+    <span class="icons"><i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fas fa-globe"></i>
+    <i class="fas fa-info"></i></span>
+                    </div>
+                    <div class="description2 col-xl-2">
+<h4>Services</h2>
+<p class="txt1">Web Design
+    Development
+    Graphic Design
+    Illustration
+    Branding</p>
 
+                    </div>
+                    <div class="description3 col-xl-2">
+<h4>Company</h2>
+<p class="txt2">About Us
+    Knowledgae base
+    Story
+    Terms
+    Contact Us</p>
+                    </div>
+                    <div class="description4 col-xl-2">
+<h4>Links</h2>
+<p class="txt3">Company
+    Services
+    Products
+    Blog
+    Portfolio</p>
+                    </div>
+                </div>
+                <i></i>
+                <div class="description4 col-xl-12">
+                    <h3>Made with Love by <span class="colortext">hogash.com</span></h3>
+                </div>
+            </div>
+        </section>
     </div>
- 
+    <script src="./all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+        <script src="./script.js"></script>
+        <script src="./owl.carousel.min.js"></script>
+        <script>
+           $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+        </script>
 </body>
 </html>
